@@ -32,7 +32,7 @@ salt-cp 'n9k-guestshell' <path_to_salt_git_clone>/salt/proxy/nxos.py /usr/lib/py
 salt-cp 'n9k-guestshell' <path_to_salt_git_clone>/salt/states/nxos.py /usr/lib/python2.7/site-packages/salt/states/nxos.py
 salt-cp 'n9k-guestshell' <path_to_salt_git_clone>/salt/states/nxos_upgrade.py /usr/lib/python2.7/site-packages/salt/states/nxos_upgrade.py
 salt-cp 'n9k-guestshell' <path_to_salt_git_clone>/salt/utils/nxos.py /usr/lib/python2.7/site-packages/salt/utils/nxos.py
-salt-cp 'n9k-guestshell' <path_to_salt_git_clone>/salt/exceptions/exceptions.py /usr/lib/python2.7/site-packages/salt/exceptions.py
+salt-cp 'n9k-guestshell' <path_to_salt_git_clone>/salt/exceptions.py /usr/lib/python2.7/site-packages/salt/exceptions.py
 ```
 
 * Complete the process by restarting the SaltStack minion running in the Guestshell
